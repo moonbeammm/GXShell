@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GXPhone/GXPhoneAppDelegate.h>
-#import <GXHome/GXHomeDefine.h>
+#import <GXPhone/GXPhoneAppDelegate.h> // 具体显示页面delegate
+#import <GXHome/GXHomeDefine.h> // 定义公用字符串 eg: GX_API_KEY
+
+#import <GXRuler/GXBus.h> // 总线bus初始化
+#import <GXPhone/GXPhoneBus.h> // 关联phone工程bus
+#import <GXHome/GXHomeBus.h> // 关联home(首页)工程bus
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -18,7 +22,15 @@ int main(int argc, char * argv[]) {
         // 这样做是为了统一工程里所有用到这个字符串的位置的值.
         GX_API_KEY = @"5fd5a7d8bfd9b0e6";
         
+        if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
+            // 初始化bus
+            [BFCBusMagiSystem registerSubBus:[[GXPhoneBus alloc] initWithName:@"main"]];
+            [BFCBusMagiSystem registerSubBus:[[GXHomeBus alloc] initWithName:@"home"]];
+            // 如果是用iphone启动软件
+            return UIApplicationMain(argc, argv, nil, NSStringFromClass([GXPhoneAppDelegate class]));
+        } else {
+            // 如果是用ipad/tv...启动软件
+        }
         
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([GXPhoneAppDelegate class]));
     }
 }
