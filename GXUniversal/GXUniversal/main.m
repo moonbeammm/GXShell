@@ -24,8 +24,8 @@ int main(int argc, char * argv[]) {
         
         if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
             // 初始化bus
-            [BFCBusMagiSystem registerSubBus:[[GXPhoneBus alloc] initWithName:@"main"]];
-            [BFCBusMagiSystem registerSubBus:[[GXHomeBus alloc] initWithName:@"home"]];
+            [GXBusMagiSystem registerSubBus:[[GXPhoneBus alloc] initWithName:@"main"]];
+            [GXBusMagiSystem registerSubBus:[[GXHomeBus alloc] initWithName:@"home"]];
             // 如果是用iphone启动软件
             return UIApplicationMain(argc, argv, nil, NSStringFromClass([GXPhoneAppDelegate class]));
         } else {
