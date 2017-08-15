@@ -559,7 +559,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXUniversal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Debug;
 		};
@@ -574,7 +573,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXUniversal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Release;
 		};
