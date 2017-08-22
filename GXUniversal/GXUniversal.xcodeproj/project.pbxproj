@@ -11,7 +11,6 @@
 		B75554DC1F3C4AAA008D0D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75554DB1F3C4AAA008D0D01 /* Assets.xcassets */; };
 		B75554DF1F3C4AAB008D0D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75554DD1F3C4AAB008D0D01 /* LaunchScreen.storyboard */; };
 		B75554EA1F3C4AAB008D0D01 /* GXUniversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75554E91F3C4AAB008D0D01 /* GXUniversalTests.m */; };
-		B75554F51F3C4AAB008D0D01 /* GXUniversalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75554F41F3C4AAB008D0D01 /* GXUniversalUITests.m */; };
 		B75555301F3C51B0008D0D01 /* GXPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B755552D1F3C5176008D0D01 /* GXPhone.framework */; };
 		B75555311F3C51B0008D0D01 /* GXPhone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B755552D1F3C5176008D0D01 /* GXPhone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B75555661F3C587F008D0D01 /* GXHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75555631F3C5875008D0D01 /* GXHome.framework */; };
@@ -20,13 +19,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		B75554E61F3C4AAB008D0D01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B75554C41F3C4AAA008D0D01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B75554CB1F3C4AAA008D0D01;
-			remoteInfo = GXUniversal;
-		};
-		B75554F11F3C4AAB008D0D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B75554C41F3C4AAA008D0D01 /* Project object */;
 			proxyType = 1;
@@ -75,6 +67,13 @@
 			remoteGlobalIDString = B75555421F3C5823008D0D01;
 			remoteInfo = GXHome;
 		};
+		E4C3DFEB1F4C7FFA00C8E69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75555271F3C5176008D0D01 /* GXPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B716D3CD1F4C4BEB00860791;
+			remoteInfo = GXShell;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,9 +100,6 @@
 		B75554E51F3C4AAB008D0D01 /* GXUniversalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXUniversalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75554E91F3C4AAB008D0D01 /* GXUniversalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXUniversalTests.m; sourceTree = "<group>"; };
 		B75554EB1F3C4AAB008D0D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B75554F01F3C4AAB008D0D01 /* GXUniversalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXUniversalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75554F41F3C4AAB008D0D01 /* GXUniversalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXUniversalUITests.m; sourceTree = "<group>"; };
-		B75554F61F3C4AAB008D0D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75555271F3C5176008D0D01 /* GXPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPhone.xcodeproj; path = ../contrib/GXPhone/GXPhone.xcodeproj; sourceTree = "<group>"; };
 		B755555D1F3C5875008D0D01 /* GXHome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXHome.xcodeproj; path = ../contrib/GXHome/GXHome.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,13 +121,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B75554ED1F3C4AAB008D0D01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -141,7 +130,6 @@
 				B75555261F3C515E008D0D01 /* Dependencies */,
 				B75554CE1F3C4AAA008D0D01 /* GXUniversal */,
 				B75554E81F3C4AAB008D0D01 /* GXUniversalTests */,
-				B75554F31F3C4AAB008D0D01 /* GXUniversalUITests */,
 				B75554CD1F3C4AAA008D0D01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,7 +139,6 @@
 			children = (
 				B75554CC1F3C4AAA008D0D01 /* GXUniversal.app */,
 				B75554E51F3C4AAB008D0D01 /* GXUniversalTests.xctest */,
-				B75554F01F3C4AAB008D0D01 /* GXUniversalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,15 +171,6 @@
 			path = GXUniversalTests;
 			sourceTree = "<group>";
 		};
-		B75554F31F3C4AAB008D0D01 /* GXUniversalUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B75554F41F3C4AAB008D0D01 /* GXUniversalUITests.m */,
-				B75554F61F3C4AAB008D0D01 /* Info.plist */,
-			);
-			path = GXUniversalUITests;
-			sourceTree = "<group>";
-		};
 		B75555261F3C515E008D0D01 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +183,7 @@
 		B75555281F3C5176008D0D01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				E4C3DFEC1F4C7FFA00C8E69A /* GXShell.app */,
 				B755552D1F3C5176008D0D01 /* GXPhone.framework */,
 				B755552F1F3C5176008D0D01 /* GXPhoneTests.xctest */,
 			);
@@ -262,24 +241,6 @@
 			productReference = B75554E51F3C4AAB008D0D01 /* GXUniversalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B75554EF1F3C4AAB008D0D01 /* GXUniversalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B75554FF1F3C4AAB008D0D01 /* Build configuration list for PBXNativeTarget "GXUniversalUITests" */;
-			buildPhases = (
-				B75554EC1F3C4AAB008D0D01 /* Sources */,
-				B75554ED1F3C4AAB008D0D01 /* Frameworks */,
-				B75554EE1F3C4AAB008D0D01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B75554F21F3C4AAB008D0D01 /* PBXTargetDependency */,
-			);
-			name = GXUniversalUITests;
-			productName = GXUniversalUITests;
-			productReference = B75554F01F3C4AAB008D0D01 /* GXUniversalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -295,12 +256,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					B75554E41F3C4AAB008D0D01 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = VEE3B6HDQ5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B75554CB1F3C4AAA008D0D01;
-					};
-					B75554EF1F3C4AAB008D0D01 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = VEE3B6HDQ5;
 						ProvisioningStyle = Automatic;
@@ -333,7 +288,6 @@
 			targets = (
 				B75554CB1F3C4AAA008D0D01 /* GXUniversal */,
 				B75554E41F3C4AAB008D0D01 /* GXUniversalTests */,
-				B75554EF1F3C4AAB008D0D01 /* GXUniversalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -367,6 +321,13 @@
 			remoteRef = B75555641F3C5875008D0D01 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E4C3DFEC1F4C7FFA00C8E69A /* GXShell.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GXShell.app;
+			remoteRef = E4C3DFEB1F4C7FFA00C8E69A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -380,13 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B75554E31F3C4AAB008D0D01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B75554EE1F3C4AAB008D0D01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,14 +382,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B75554EC1F3C4AAB008D0D01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B75554F51F3C4AAB008D0D01 /* GXUniversalUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -443,11 +389,6 @@
 			isa = PBXTargetDependency;
 			target = B75554CB1F3C4AAA008D0D01 /* GXUniversal */;
 			targetProxy = B75554E61F3C4AAB008D0D01 /* PBXContainerItemProxy */;
-		};
-		B75554F21F3C4AAB008D0D01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B75554CB1F3C4AAA008D0D01 /* GXUniversal */;
-			targetProxy = B75554F11F3C4AAB008D0D01 /* PBXContainerItemProxy */;
 		};
 		B75555331F3C51B0008D0D01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -619,30 +560,6 @@
 			};
 			name = Release;
 		};
-		B75555001F3C4AAB008D0D01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = VEE3B6HDQ5;
-				INFOPLIST_FILE = GXUniversalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXUniversalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GXUniversal;
-			};
-			name = Debug;
-		};
-		B75555011F3C4AAB008D0D01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = VEE3B6HDQ5;
-				INFOPLIST_FILE = GXUniversalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXUniversalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GXUniversal;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -669,15 +586,6 @@
 			buildConfigurations = (
 				B75554FD1F3C4AAB008D0D01 /* Debug */,
 				B75554FE1F3C4AAB008D0D01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B75554FF1F3C4AAB008D0D01 /* Build configuration list for PBXNativeTarget "GXUniversalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B75555001F3C4AAB008D0D01 /* Debug */,
-				B75555011F3C4AAB008D0D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
