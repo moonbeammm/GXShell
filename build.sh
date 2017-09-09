@@ -13,8 +13,13 @@ echo '<<<<<---------------'
 echo '运行build.py文件...'
 python build.py $ARG
 
-#echo '拉取三方库!'
-#pod install
+echo '--------------->>>>>'
+echo '拉取三方库!!!!!!!!!!!!'
+echo '<<<<<---------------'
+if [ ! -d "contrib/GXPodContainer/GXPodLinker/Pods" ]; then
+    cd contrib/GXPodContainer/GXPodLinker
+    pod install
+fi
 
 echo '拉取代码成功...'
 
