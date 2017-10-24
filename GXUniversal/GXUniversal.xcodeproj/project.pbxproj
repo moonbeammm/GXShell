@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7106F331F9F51F6003C2405 /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7106F281F9F51E7003C2405 /* IJKMediaFrameworkWithSSL.framework */; };
+		B7106F341F9F51F6003C2405 /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B7106F281F9F51E7003C2405 /* IJKMediaFrameworkWithSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B75081EE1F9E25030054ED21 /* GXRuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75081EB1F9E24E80054ED21 /* GXRuler.framework */; };
 		B75081EF1F9E25030054ED21 /* GXRuler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B75081EB1F9E24E80054ED21 /* GXRuler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B75081F81F9E25730054ED21 /* GXPodContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75081F71F9E255F0054ED21 /* GXPodContainer.framework */; };
@@ -205,6 +207,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B7106F341F9F51F6003C2405 /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */,
 				B75082061F9E25930054ED21 /* GXNetwork.framework in Embed Frameworks */,
 				B75081EF1F9E25030054ED21 /* GXRuler.framework in Embed Frameworks */,
 				B75082161F9E25B10054ED21 /* GXPlayer.framework in Embed Frameworks */,
@@ -219,6 +222,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B7106F281F9F51E7003C2405 /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFrameworkWithSSL.framework; path = ../contrib/GXPlayer/Framework/IJKMediaFrameworkWithSSL.framework; sourceTree = "<group>"; };
 		B75081E11F9E24E80054ED21 /* GXRuler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXRuler.xcodeproj; path = ../contrib/GXRuler/GXRuler.xcodeproj; sourceTree = "<group>"; };
 		B75081F21F9E255F0054ED21 /* GXPodContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPodContainer.xcodeproj; path = ../contrib/GXPodContainer/GXPodContainer.xcodeproj; sourceTree = "<group>"; };
 		B75081FC1F9E258B0054ED21 /* GXNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXNetwork.xcodeproj; path = ../contrib/GXNetwork/GXNetwork.xcodeproj; sourceTree = "<group>"; };
@@ -243,6 +247,7 @@
 			files = (
 				B75082051F9E25930054ED21 /* GXNetwork.framework in Frameworks */,
 				B75081EE1F9E25030054ED21 /* GXRuler.framework in Frameworks */,
+				B7106F331F9F51F6003C2405 /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
 				B75082151F9E25B10054ED21 /* GXPlayer.framework in Frameworks */,
 				B75081F81F9E25730054ED21 /* GXPodContainer.framework in Frameworks */,
 				B75555661F3C587F008D0D01 /* GXHome.framework in Frameworks */,
@@ -356,6 +361,7 @@
 		B75555261F3C515E008D0D01 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				B7106F281F9F51E7003C2405 /* IJKMediaFrameworkWithSSL.framework */,
 				B75082191F9E25C60054ED21 /* GXPageView.xcodeproj */,
 				B75082091F9E25A90054ED21 /* GXPlayer.xcodeproj */,
 				B75081FC1F9E258B0054ED21 /* GXNetwork.xcodeproj */,
@@ -839,6 +845,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VEE3B6HDQ5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../contrib/GXPlayer/Framework\"";
 				INFOPLIST_FILE = GXUniversal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -854,6 +861,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VEE3B6HDQ5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../contrib/GXPlayer/Framework\"";
 				INFOPLIST_FILE = GXUniversal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
