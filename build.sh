@@ -17,8 +17,8 @@ if [ ! -d "contrib/GXPodContainer/GXPodLinker/Pods" ]; then
     echo '--------------->>>>>'
     echo '拉取三方库!!!!!!!!!!!!'
     echo '<<<<<---------------'
-    cd contrib/GXPodContainer/GXPodLinker
-    pod install
+    #cd contrib/GXPodContainer/GXPodLinker
+    #pod install
 fi
 
 echo '拉取代码成功...'
