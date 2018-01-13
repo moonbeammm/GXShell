@@ -31,6 +31,5 @@ int main(int argc, char * argv[]) {
         } else {
             // 如果是用ipad/tv...启动软件
         }
-        
     }
 }
