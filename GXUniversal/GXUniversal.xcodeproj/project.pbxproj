@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		AA08D32A2000AD610062C7CE /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D3282000AD4E0062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
 		AA08D32B2000AD610062C7CE /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D3282000AD4E0062C7CE /* IJKMediaFrameworkWithSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF238ED204E6A4700191285 /* GXRuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2562000A77C0062C7CE /* GXRuler.framework */; };
+		AAF238EE204E6A4700191285 /* GXRuler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2562000A77C0062C7CE /* GXRuler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF23901204E6A6800191285 /* GXRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D24C2000A7780062C7CE /* GXRefresh.framework */; };
+		AAF23902204E6A6800191285 /* GXRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D24C2000A7780062C7CE /* GXRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF23905204E6A7100191285 /* GXPodContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2452000A7740062C7CE /* GXPodContainer.framework */; };
+		AAF23906204E6A7100191285 /* GXPodContainer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2452000A7740062C7CE /* GXPodContainer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF23909204E6A8800191285 /* GXPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D23B2000A7700062C7CE /* GXPlayer.framework */; };
+		AAF2390A204E6A8800191285 /* GXPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D23B2000A7700062C7CE /* GXPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF2390D204E6A9600191285 /* GXPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2312000A76D0062C7CE /* GXPayment.framework */; };
+		AAF2390E204E6A9600191285 /* GXPayment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2312000A76D0062C7CE /* GXPayment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF23911204E6A9E00191285 /* GXNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D21F2000A75E0062C7CE /* GXNetwork.framework */; };
+		AAF23912204E6A9E00191285 /* GXNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D21F2000A75E0062C7CE /* GXNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF23915204E6AA500191285 /* GXPageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2282000A7690062C7CE /* GXPageView.framework */; };
+		AAF23916204E6AA500191285 /* GXPageView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2282000A7690062C7CE /* GXPageView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAF23919204E6ADA00191285 /* GXPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B755552D1F3C5176008D0D01 /* GXPhone.framework */; };
+		AAF2391A204E6ADA00191285 /* GXPhone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B755552D1F3C5176008D0D01 /* GXPhone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B75554D11F3C4AAA008D0D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75554D01F3C4AAA008D0D01 /* main.m */; };
 		B75554DC1F3C4AAA008D0D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75554DB1F3C4AAA008D0D01 /* Assets.xcassets */; };
 		B75554DF1F3C4AAB008D0D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75554DD1F3C4AAB008D0D01 /* LaunchScreen.storyboard */; };
 		B75554EA1F3C4AAB008D0D01 /* GXUniversalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75554E91F3C4AAB008D0D01 /* GXUniversalTests.m */; };
-		B75555301F3C51B0008D0D01 /* GXPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B755552D1F3C5176008D0D01 /* GXPhone.framework */; };
-		B75555311F3C51B0008D0D01 /* GXPhone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B755552D1F3C5176008D0D01 /* GXPhone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B75555661F3C587F008D0D01 /* GXHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75555631F3C5875008D0D01 /* GXHome.framework */; };
 		B75555671F3C587F008D0D01 /* GXHome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B75555631F3C5875008D0D01 /* GXHome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -118,6 +132,62 @@
 			remoteGlobalIDString = B7B684731F41A98700306EF5;
 			remoteInfo = GXRulerTests;
 		};
+		AAF238EF204E6A4700191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08D24F2000A77C0062C7CE /* GXRuler.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B684691F41A98700306EF5;
+			remoteInfo = GXRuler;
+		};
+		AAF23903204E6A6800191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08D2462000A7780062C7CE /* GXRefresh.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B746AB4D1F668CA20024E7CE;
+			remoteInfo = GXRefresh;
+		};
+		AAF23907204E6A7100191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08D2402000A7740062C7CE /* GXPodContainer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B77B4B251F5D2694009FBFF0;
+			remoteInfo = GXPodContainer;
+		};
+		AAF2390B204E6A8800191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08D2342000A7700062C7CE /* GXPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B70D8BF11F9844BA00F0DA16;
+			remoteInfo = GXPlayer;
+		};
+		AAF2390F204E6A9600191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08D22B2000A76C0062C7CE /* GXPayment.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B70D8C151F9844DF00F0DA16;
+			remoteInfo = GXPayment;
+		};
+		AAF23913204E6A9E00191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08D2182000A75D0062C7CE /* GXNetwork.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B685451F41BFA100306EF5;
+			remoteInfo = GXNetwork;
+		};
+		AAF23917204E6AA500191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08D2222000A7690062C7CE /* GXPageView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B744959D1F56B0A80018CC0F;
+			remoteInfo = GXPageView;
+		};
+		AAF2391B204E6ADA00191285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75555271F3C5176008D0D01 /* GXPhone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B755550B1F3C502C008D0D01;
+			remoteInfo = GXPhone;
+		};
 		B75554E61F3C4AAB008D0D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B75554C41F3C4AAA008D0D01 /* Project object */;
@@ -138,13 +208,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = B75555151F3C502C008D0D01;
 			remoteInfo = GXPhoneTests;
-		};
-		B75555321F3C51B0008D0D01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B75555271F3C5176008D0D01 /* GXPhone.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B755550B1F3C502C008D0D01;
-			remoteInfo = GXPhone;
 		};
 		B75555621F3C5875008D0D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -190,9 +253,16 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AAF2391A204E6ADA00191285 /* GXPhone.framework in Embed Frameworks */,
+				AAF23912204E6A9E00191285 /* GXNetwork.framework in Embed Frameworks */,
+				AAF23916204E6AA500191285 /* GXPageView.framework in Embed Frameworks */,
 				AA08D32B2000AD610062C7CE /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */,
+				AAF23902204E6A6800191285 /* GXRefresh.framework in Embed Frameworks */,
+				AAF2390A204E6A8800191285 /* GXPlayer.framework in Embed Frameworks */,
 				B75555671F3C587F008D0D01 /* GXHome.framework in Embed Frameworks */,
-				B75555311F3C51B0008D0D01 /* GXPhone.framework in Embed Frameworks */,
+				AAF23906204E6A7100191285 /* GXPodContainer.framework in Embed Frameworks */,
+				AAF2390E204E6A9600191285 /* GXPayment.framework in Embed Frameworks */,
+				AAF238EE204E6A4700191285 /* GXRuler.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,9 +295,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF23919204E6ADA00191285 /* GXPhone.framework in Frameworks */,
+				AAF23911204E6A9E00191285 /* GXNetwork.framework in Frameworks */,
+				AAF23915204E6AA500191285 /* GXPageView.framework in Frameworks */,
 				AA08D32A2000AD610062C7CE /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
+				AAF23901204E6A6800191285 /* GXRefresh.framework in Frameworks */,
+				AAF23909204E6A8800191285 /* GXPlayer.framework in Frameworks */,
 				B75555661F3C587F008D0D01 /* GXHome.framework in Frameworks */,
-				B75555301F3C51B0008D0D01 /* GXPhone.framework in Frameworks */,
+				AAF23905204E6A7100191285 /* GXPodContainer.framework in Frameworks */,
+				AAF2390D204E6A9600191285 /* GXPayment.framework in Frameworks */,
+				AAF238ED204E6A4700191285 /* GXRuler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +482,14 @@
 			);
 			dependencies = (
 				B75555691F3C587F008D0D01 /* PBXTargetDependency */,
-				B75555331F3C51B0008D0D01 /* PBXTargetDependency */,
+				AAF238F0204E6A4700191285 /* PBXTargetDependency */,
+				AAF23904204E6A6800191285 /* PBXTargetDependency */,
+				AAF23908204E6A7100191285 /* PBXTargetDependency */,
+				AAF2390C204E6A8800191285 /* PBXTargetDependency */,
+				AAF23910204E6A9600191285 /* PBXTargetDependency */,
+				AAF23914204E6A9E00191285 /* PBXTargetDependency */,
+				AAF23918204E6AA500191285 /* PBXTargetDependency */,
+				AAF2391C204E6ADA00191285 /* PBXTargetDependency */,
 			);
 			name = GXUniversal;
 			productName = GXUniversal;
@@ -707,15 +791,50 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AAF238F0204E6A4700191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXRuler;
+			targetProxy = AAF238EF204E6A4700191285 /* PBXContainerItemProxy */;
+		};
+		AAF23904204E6A6800191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXRefresh;
+			targetProxy = AAF23903204E6A6800191285 /* PBXContainerItemProxy */;
+		};
+		AAF23908204E6A7100191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPodContainer;
+			targetProxy = AAF23907204E6A7100191285 /* PBXContainerItemProxy */;
+		};
+		AAF2390C204E6A8800191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPlayer;
+			targetProxy = AAF2390B204E6A8800191285 /* PBXContainerItemProxy */;
+		};
+		AAF23910204E6A9600191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPayment;
+			targetProxy = AAF2390F204E6A9600191285 /* PBXContainerItemProxy */;
+		};
+		AAF23914204E6A9E00191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXNetwork;
+			targetProxy = AAF23913204E6A9E00191285 /* PBXContainerItemProxy */;
+		};
+		AAF23918204E6AA500191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPageView;
+			targetProxy = AAF23917204E6AA500191285 /* PBXContainerItemProxy */;
+		};
+		AAF2391C204E6ADA00191285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPhone;
+			targetProxy = AAF2391B204E6ADA00191285 /* PBXContainerItemProxy */;
+		};
 		B75554E71F3C4AAB008D0D01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B75554CB1F3C4AAA008D0D01 /* GXUniversal */;
 			targetProxy = B75554E61F3C4AAB008D0D01 /* PBXContainerItemProxy */;
-		};
-		B75555331F3C51B0008D0D01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GXPhone;
-			targetProxy = B75555321F3C51B0008D0D01 /* PBXContainerItemProxy */;
 		};
 		B75555691F3C587F008D0D01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
